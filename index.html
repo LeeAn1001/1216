@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>玄機錄 - AI 解答之書</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'paper-bg': '#F5F1EA',
+              'ink-blue': '#1E3A8A', // Indigo color from the reference
+              'ink-light': '#3B82F6',
+            },
+            fontFamily: {
+              serif: ['"Noto Serif TC"', 'PMingLiU', 'MingLiU', 'serif'],
+            },
+            backgroundImage: {
+              'texture': "url('https://www.transparenttextures.com/patterns/cream-paper.png')",
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #e8e4dc;
+      }
+      /* Custom scrollbar for a cleaner look */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #F5F1EA; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #1E3A8A; 
+        border-radius: 4px;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
